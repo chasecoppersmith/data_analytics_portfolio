@@ -9,7 +9,7 @@ model features as possible and get a feel for which metrics matter most.
 This code performs a number of different taks to convert various raw data sources into one big data frame, which is then used to model Bitcoin price over
 various time frames. These tasks are briefly outlined below:
 
-- **Read in the data from various sources.
-- Format data into useable format. Correct date column formats, re-format and rename columns, aggregate where needed, remove missing values.**
-- Join data togther based on primary key (date).**
-- Create lagged versions of each numeric column in data frame**
+- **Read in the data from various sources.**
+- **Format data into useable format. Correct date column formats, re-format and rename columns, aggregate where needed, remove missing values.**
+- **Join data togther based on primary key (date).**
+- **Create lagged versions of each numeric column in data frame**
