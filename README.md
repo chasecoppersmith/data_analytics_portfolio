@@ -13,4 +13,4 @@ various time frames. These tasks are briefly outlined below:
 - **Format data into useable format. Correct date column formats, re-format and rename columns, aggregate where needed, remove missing values.**
 - **Join data togther at various points based on primary key column(s).**
 - **Create lagged versions of each numeric column in data frame**
-- **Create rolling averages of future Bitcoin Average, High and Low prices to be used for Ceiling, Floor, and Median Model Creation.**
+- **Create rolling averages of future Average, High and Low Bitcoin prices to be used for Ceiling, Floor, and Median Model Creation.**
