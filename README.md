@@ -14,8 +14,8 @@ various time frames. These tasks are briefly outlined below:
 - **Create lagged versions of each numeric column in data frame**
 - **Create rolling averages of future Average, High and Low Bitcoin prices to be used as outcome variables.**
 - **Create 7 different XGBoost models: 3 day Ceiling and Floor Price, 30 Day Ceiling, Floor, and Average Price, 200 day Ceiling and Floor price:**
-- **For each model, split data into train and test sets, evaluate different parameters for model and choose most optimal based on RMSE.**
+- **For each model, split data into train and test sets, perform Cross Validation, evaluate different parameters for model and choose most optimal based on RMSE.**
 - **Filter out features based on XGBoost built-in Variable Importance function and re-run model building with new set of features.**
-- **Save model locally for future predictions, as well as final features that are used, so that predictions can be made easily on new data**
+- **Save model locally for future predictions. Save list of final features that are used so that predictions can be made easily on new data**
 
 
